@@ -4,9 +4,9 @@ const ctx = canvas.getContext('2d')
 canvas.width = 801
 canvas.height = 501
 
-let score = 0
+let score = 10
 let gameFrame = 0
-ctx.font = '50px Georgia'
+ctx.font = '30px Georgia'
 
 let canvasPosition = canvas.getBoundingClientRect()
 
